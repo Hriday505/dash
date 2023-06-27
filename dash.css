@@ -366,7 +366,7 @@ display:block;
 	.card-head h2{
 		font-size: 20px;
 	}
-	.user{
+	.user{margin-left:1.5rem;
 		min-width:40px;}
 	
 	.nevigation{

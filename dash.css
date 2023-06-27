@@ -1,4 +1,4 @@
-@charset "utf-8";
+t@charset "utf-8";
 /* CSS Document */
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 /*=========globals=======================*/
@@ -17,7 +17,7 @@ body{
 	min-height: 100vh;
 	overflow-x: hidden;}
 	
-.container{
+.container{height:100vh;
 	position: relative;
 	width: 100%;}
 .nevigation{

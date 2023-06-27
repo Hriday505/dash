@@ -385,6 +385,12 @@ display:block;
 		right: 0;
 		left:inherit;
 	}
+
+	
+	.main .search{
+		width:100px;
+		right:0;
+	}
 	
 }
 

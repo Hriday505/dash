@@ -388,8 +388,8 @@ display:block;
 
 	
 	.main .search{
-		width:100px;
-		right:0;
+		width:50px;
+		margin-right:20px;
 	}
 	
 }

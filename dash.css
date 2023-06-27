@@ -1,4 +1,4 @@
-t@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 /*=========globals=======================*/
@@ -17,7 +17,8 @@ body{
 	min-height: 100vh;
 	overflow-x: hidden;}
 	
-.container{height:100vh;
+.container{
+	height: 100vh;
 	position: relative;
 	width: 100%;}
 .nevigation{
@@ -135,7 +136,7 @@ display:block;
 	cursor: pointer;}
 .search{position: relative;
 	width: 400px;
-	margin: 0 5px;}
+	margin: 0 10px;}
 	
 .search label {
 	position: 100%;
@@ -366,8 +367,10 @@ display:block;
 	.card-head h2{
 		font-size: 20px;
 	}
-	.user{margin-left:1.5rem;
-		min-width:40px;}
+	.user{
+		min-width:40px;
+		margin-left:1.5rem;
+	}
 	
 	.nevigation{
 		width: 100%;
@@ -382,21 +385,16 @@ display:block;
 	.main.active .toggle{
 		color: var(--white);
 		position: fixed; 
-		margin-right:10px;
 		right: 0;
 		left:inherit;
 	}
-
-		
+	
+	
 	.search{
 		width:50%;
-		margin-right:1.2rem;
 	}
 
-	
-	
 }
-
 
 
 

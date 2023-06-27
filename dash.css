@@ -384,12 +384,19 @@ display:block;
 	.toggle{
 	z-index: 10001;
 	}
-	.main.active .toggle{
+	/*.main.active .toggle{
 		color: var(--white);
 		position: fixed; 
 		right: 0;
 		left:inherit;
+	}*/
+		.main.active .toggle{
+		color: var(--white);
+		position:absolute; 
+	margin-left:-1.8rem;
+		left:inherit;
 	}
+	
 	
 	
 	.search{

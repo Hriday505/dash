@@ -382,6 +382,7 @@ display:block;
 	.main.active .toggle{
 		color: var(--white);
 		position: fixed; 
+		margin-right:30px;
 		right: 0;
 		left:inherit;
 	}
